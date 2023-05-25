@@ -1,2 +1,2 @@
-# dark-mode-page
-How to add dark mode to projecrts
+# Dark mode to projects
+How to add dark mode to projects
