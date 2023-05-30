@@ -14,10 +14,10 @@ function defineCurrentTheme(theme){
     document.documentElement.setAttribute("data-theme", theme)
     if(theme == "light")
     {
-        btnDarkModeToggle.innerHTML = lightSvg
+        btnDarkModeToggle.innerHTML = darkSvg
         return
     }
-    btnDarkModeToggle.innerHTML = darkSvg
+    btnDarkModeToggle.innerHTML = lightSvg
 }
 
 defineCurrentTheme(themeSystem)
